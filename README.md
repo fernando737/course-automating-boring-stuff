@@ -1,0 +1,1 @@
+# course-automating-boring-stuff
