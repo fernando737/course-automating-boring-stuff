@@ -1,0 +1,41 @@
+1. What are escape characters?
+A: Escape characters represent characters in string values that would otherwise be difficult or imposible to type into code.
+
+2. What do the \n and \t escape characters represent?
+A: \n new line, \t tab
+
+3. How can you put a \ backslash character in a string?
+A: You can use // or a raw string r'<string>'
+
+4. The string value "Howl's Moving Castle" is a valid string. Why isn't it a problem that the single quote character in the word Howl's isn't escaped?
+A: Because we a using the double quote to define the string
+
+5. If you don't want to put \n in your string, how can you write a string with newlines in it?
+A: You can use the """ simbol to define the beginning and end of a multiline string.
+
+6. What do the following expressions evaluate to?
+
+'Hello, world!'[1]   -> 'e'
+'Hello, world!'[0:5] -> 'Hello'
+'Hello, world!'[:5]  -> 'Hello'
+'Hello, world!'[3:]  -> 'lo, world!'
+
+7. What do the following expressions evaluate to?
+
+'Hello'.upper()             -> 'HELLO'
+'Hello'.upper().isupper()   ->  True
+'Hello'.upper().lower()     -> 'hello'
+
+8. What do the following expressions evaluate to?
+
+'Remember, remember, the fifth of November.'.split()    -> ['Remember,' 'remember,', 'the', 'fifth', 'of', 'November.']
+'-'.join('There can be only one.'.split())               -> "There-can-be-only-one."
+
+9. What string methods can you use to right-justify, left-justify and center a string?
+
+'Hello'.rjust(20,' ')       -> '               Hello'
+'Hello'.ljust(20,'-')       -> 'Hello               '
+'Hello'.center(20,'*')      -> '*******Hello********'
+
+10. How can you trim whitespace characters from the beginning or end of a string?
+A: The lstrip() and rstrip() methos remove whitespace from the left and right ends of a string, respectively.
